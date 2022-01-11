@@ -1,3 +1,12 @@
+Combine_stack = function(group1, group2)
+                         {Combined_Groups = data.frame(cbind(X21C$SS15, X21C$SS50 ))
+                          stack_group = stack(Combined_Groups)
+                          return(stack_group)}
+
+
+######
+####ORiginla Code 2018####
+#######
 ##################SS15-50Linear
 Combined_Groups = data.frame(cbind(X21C$SS15, X21C$SS50 ))
 stack_group = stack(Combined_Groups)
