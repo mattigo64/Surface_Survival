@@ -1,5 +1,13 @@
 #############
 #############
+run_aov = function(data){
+  aovSS = aov(values ~ ind, data = stack_group)
+sum = summary(aovSS)
+tukey = TukeyHSD(aovSS)
+return(sum)
+return(tueky)
+  }
+
 
 ##################SS15#Temp
 Combined_Groups = data.frame(cbind(X21C$SS15, X7C$SS15 ))
